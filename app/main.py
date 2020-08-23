@@ -5,6 +5,3 @@ app = Flask(__name__)
 def landing_page():
     return render_template ("index.html")
 
-@app.route("/static/images/title.jpg")
-def landing_page():
-    return render_template ("/static/images/title.jpg")
